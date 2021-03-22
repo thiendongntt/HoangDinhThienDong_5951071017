@@ -1,0 +1,23 @@
+
+
+.contain{
+    font-size: 30px;
+    color: rgba(187, 56, 56, 0.7);
+    background-color: rosybrown;
+    animation: growth ease-in 1s;
+}
+
+
+@keyframes growth {
+    from {
+        background: red;
+        opacity: 0;
+
+    }
+
+    to {
+        background: rgba(187, 56, 56, 0.7);
+        opacity: 0.4;
+
+    }
+}
